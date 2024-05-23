@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 2px;
+            padding: 2px;
+        }
+        .nav{
+            /* position: absolute; */
+            height: 20vh;
+            width: 98vw;
+            background-color: limegreen;
+            border: 2px black solid;
+        }
+        .nav p{
+            font-size: 50px;
+            font-weight: bold;
+            font-family: algerian;
+            color: aqua;
+            padding-top: 30px;
+            padding-left: 25px;
+            float: left;
+        }
+        .nav ul li{
+            float: left;
+            list-style: none;
+            margin: 40px;
+            font-size: 35px;
+            color:#1f5120;
+            background-color: deepskyblue;
+            border: 5px groove black;
+            border-radius: 10px;
+            padding: 5;
+        }
+        .nav ul li:hover{
+            background-color: yellow;
+        }
+        .image{
+            margin-top: 20px;
+            height: 200px;
+            width: 97.5vw;
+            background-image: url(https://techcrunch.com/wp-content/uploads/2014/12/matrix.jpg?w=730&crop=1);
+            border: 5px black groove;
+        }
+        .imgdiv{
+            font-size: 50px;
+            color: green;
+            font-weight: bold;
+            float: left;
+            margin: 50px 350px;
+            font-family: algerian;
+            background-color: white;
+            padding: 10px 50px;
+            border: 3px green solid;
+        }
+        .container1 p{
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .container1 input{
+            height: 43px;
+            width: 700px;
+            margin-top: 30px;
+            margin-left: 200px;
+            font-size: 30px;
+        }
+        .container1 button{
+            height: 50px;
+            width: 300px;
+            margin-top: 30px;
+            font-size: 27px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <p>Escape From Tech</p>
+        <ul>
+            <a href="index.html"><li><i class="fa-solid fa-house" style="color: #20511f;"></i>HOME</li></a>
+            <a href="details.html"><li><i class="fa-solid fa-circle-info" style="color: #25511f;"></i>INFORMATION</li></a>
+            <a href="search.html"><li><i class="fa-solid fa-magnifying-glass" style="color: #1f5120;"></i>SEARCH</li></a>    
+        </ul>
+    </div>
+    <div class="image">
+        <p class="imgdiv">ESCAPE FROM TECHNOLOGY</p>
+    </div>
+    <div class="container1">
+        <p>Search</p>
+        <input type="text" placeholder="Search Something">
+        <button>Search</button>
+    </div>
+</body>
+</html>

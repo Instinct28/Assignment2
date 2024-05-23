@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Three Fail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 2px;
+            padding: 2px;
+        }
+        .nav{
+            /* position: absolute; */
+            height: 20vh;
+            width: 98vw;
+            background-color: limegreen;
+            border: 2px black solid;
+        }
+        .nav p{
+            font-size: 50px;
+            font-weight: bold;
+            font-family: algerian;
+            color: aqua;
+            padding-top: 30px;
+            padding-left: 25px;
+            float: left;
+        }
+        .nav ul li{
+            float: left;
+            list-style: none;
+            margin: 40px;
+            font-size: 35px;
+            color:#1f5120;
+            background-color: deepskyblue;
+            border: 5px groove black;
+            border-radius: 10px;
+            padding: 5;
+        }
+        .nav ul li:hover{
+            background-color: yellow;
+        }
+        .image{
+            margin-top: 20px;
+            height: 200px;
+            width: 97.5vw;
+            background-image: url(https://techcrunch.com/wp-content/uploads/2014/12/matrix.jpg?w=730&crop=1);
+            border: 5px black groove;
+        }
+        .imgdiv{
+            font-size: 50px;
+            color: green;
+            font-weight: bold;
+            float: left;
+            margin: 50px 350px;
+            font-family: algerian;
+            background-color: white;
+            padding: 10px 50px;
+            border: 3px green solid;
+        }
+        .one{
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 100px;
+            padding-left: 500px;
+        }
+        .foot{
+            height: 65px;
+            width: 97.5vw;
+            background-color: springgreen;
+            border: 5px groove black;
+            margin-top: 60px;
+        }
+        .foot p{
+            padding-top: 15px;
+            padding-left: 650px;
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+        .foot:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <p>Escape From Tech</p>
+        <ul>
+            <a href="index.html"><li><i class="fa-solid fa-house" style="color: #20511f;"></i>HOME</li></a>
+            <a href="details.html"><li><i class="fa-solid fa-circle-info" style="color: #25511f;"></i>INFORMATION</li></a>
+            <a href="search.html"><li><i class="fa-solid fa-magnifying-glass" style="color: #1f5120;"></i>SEARCH</li></a>
+        </ul>
+    </div>
+    <div class="image">
+        <p class="imgdiv">ESCAPE FROM TECHNOLOGY</p>
+    </div>
+    <p class="one">You pressed the rock, and nothing happened. Try again!</p>
+    <a href="puzzle_two_success.html" style="text-decoration: none;">
+        <div class="foot">
+        <p>Press another rock!</p>
+        </div>
+    </a>
+</body>
+</html>
